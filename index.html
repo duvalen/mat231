@@ -1,32 +1,68 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="/styles.css" />
-    <title>Alternativas para migrar para sair da cidade</title>
-  </head>
+<html lang="en">
 
-  <body>
-    <header>
-      <img class="logo" src="/campoacidade.png" alt="imagemdocampo" />
-      <h1>Alternativas para migrar para sair da cidade</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <title>Campo para cidade</title>
+</head>
+
+<body class="container">
+    <header class="banner">
+        <div class="banner-header">
+            <h1 class="banner-header-title">Do campo para cidade</h1>
+        </div>
     </header>
-    <main>
-      <article>
-        <h2>Alternativas para migrar para sair da cidade</h2>
 
+    <article>
+        <h4>Colhendo Oportunidades</h4>
+        <p>
+            A transição do campo para a cidade é uma jornada repleta de novas possibilidades e desafios. No coração
+            dessa mudança, está a oportunidade de crescimento e inovação. O campo, com suas tradições e conhecimentos
+            arraigados, é o berço de uma rica experiência que, quando transportada para o ambiente urbano, pode gerar um
+            impacto significativo.
         </p>
-      </article>
-    </main>
 
-    <footer>
-    </footer>
-  </body>
+        <p>
+            Na cidade, a diversidade e o dinamismo oferecem um cenário fértil para o desenvolvimento de novas ideias. A
+            experiência adquirida no campo pode ser a chave para descobrir oportunidades em setores variados, desde o
+            empreendedorismo até a tecnologia. A cidade, com seu acesso a recursos e redes, proporciona um ambiente
+            ideal para transformar a visão e as habilidades adquiridas no campo em realizações concretas.
+        </p>
+
+        <p>
+            Este processo de adaptação não é apenas sobre mudança de localização, mas sobre a integração e aplicação de
+            conhecimentos diversos para criar novas possibilidades. É uma oportunidade de trazer a sabedoria do campo
+            para o contexto urbano, enriquecendo ambos os mundos e criando um espaço onde inovação e tradição se
+            encontram.
+        </p>
+
+        <p>
+            A jornada do campo à cidade é, portanto, mais do que uma mudança geográfica; é uma oportunidade para
+            cultivar novas possibilidades, explorar horizontes e colher os frutos de um ambiente vibrante e cheio de
+            promessas. Ao abraçar essa transição, podemos transformar desafios em oportunidades e criar um futuro onde o
+            melhor de ambos os mundos se une para promover o crescimento e o sucesso.
+        </p>
+
+        <footer>
+            <button id="courses-button">Graduações</button>
+            <button id="jobs-button">Empregos</button>
+        </footer>
+    </article>
+</body>
+
+<script>
+    document.getElementById('courses-button').addEventListener('click', function () {
+        window.location.href = 'courses.html';
+    });
+
+    document.getElementById('jobs-button').addEventListener('click', function () {
+        window.location.href = 'jobs.html';
+    });
+</script>
+
 </html>
